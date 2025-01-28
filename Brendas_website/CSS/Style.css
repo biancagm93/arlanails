@@ -1,0 +1,197 @@
+.offpage {
+    position: absolute;
+    left: -1000px;
+    
+}
+
+
+header{
+    display: inline-block;
+    background-color: #fae0f1;
+
+}
+  
+header img{
+    width: 170px;
+    position: relative;
+    top: 20%;
+    align-content: start;
+    margin:0px;
+    
+}
+
+Body{
+    background: #fae0f1;
+}
+
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #87215D;
+    font-style: italic;
+    text-align: center;
+}
+
+p{ 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: #87215D;
+    background-color: #FAE0F1;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #73353D;
+    font-style: italic;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline-grid;
+    grid-template-rows: 25px;
+    grid-template-columns:15fr 15fr 15fr;
+    gap: 15px;
+    place-content: end, right;
+    background-color: #dc6eb2;
+    align-items: end;
+    padding: 0px;
+}
+
+.grid-container > nav li {
+   display:inline-grid;
+   text-align: center;
+   padding: 5px 15px;
+
+}
+
+ul{
+    margin-inline-start: 225px;
+
+}
+
+nav a:link { 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-weight: bold;
+    color:#87215D;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+nav a:hover {
+    display:block;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    color: pink;
+
+}
+
+nav a:visited{
+    display: block;
+    font-weight: lighter;
+    color: brown;
+}
+
+nav a:active{
+    display: flex;
+    font-weight: 800;
+    color:black;
+}
+
+
+.backgroundImg {
+    background-image: url(../Images/NailTech.png);
+    background-position: center;
+    background-size: cover;
+    top: 50%;
+    left:50%;
+    transform: (-50%, -50%);
+    z-index: 2;
+    width:80%;
+    padding: 20px;
+    opacity: 1;
+    height: 100%;
+    
+}
+
+.bg-text {
+    background-color: rbg (0,0,0);
+    background-color: rgba(0, 0, 0, .2);
+    color:white;
+    font-weight: bold;
+    border: 3px hidden;
+    position: center;
+    top: 50%;
+    left:50%;
+    transform: (-50%, -50%);
+    z-index: 2;
+    width:80%;
+    padding: 20px;
+    text-align: center; 
+    
+}
+ body > a:focus {
+    position: absolute;
+    left:100px;
+    
+ }
+
+ body a:hover{
+    display:block;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    color: pink;
+
+
+ }
+
+ body a:link{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-weight: bold;
+    color:#87215D;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+ }
+
+ .focus {
+    position:absolute;
+    text-align: center;
+ }
+
+ img {
+    position:flex;
+    width: 40% 40%;
+    padding: 5px;
+    border: 5px solid white;
+    margin: 2px;
+    border-radius: 40px;
+ }
+
+.flex-container{
+    display:flex;
+    width: 40% 40%;
+    flex-wrap: wrap;
+    background-color: #FAE0F1;
+}
+
+img:nth-child(odd) {
+    border: 5px solid pink;
+}
+
+.box {
+    background: #FAE0F1;
+    border-radius: 6px;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear;
+  }
+  .box:hover {
+    background: #87215D;
+    border-radius: 35%;
+  }
